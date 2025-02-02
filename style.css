@@ -178,7 +178,7 @@ a:hover{
     justify-content: space-between;
 }
 .home-img{
-    background-image: url(images/_DSC5275.jpg);
+    background-image: url(_DSC5275.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px; /* Added rounded border */
