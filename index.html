@@ -39,12 +39,38 @@
         <h2>Celebrating Our Love <br> With Those We Love</h2>
         <div class="timeline-container">
             <!-- <div class="timeline-img"></div> -->
-            <div class="timeline-video">
+            <!-- <div class="timeline-video">
                 <video autoplay loop controls playsinline>
                     <source src="https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/Invitation.m4v" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+            </div> -->
+            <div class="timeline-video">
+                <video id="timelineVideo" loop playsinline>
+                    <source src="https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/Invitation.m4v" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
+            
+            <script>
+                document.addEventListener("click", function () {
+                    let video = document.getElementById("timelineVideo");
+            
+                    // Play the video with sound on user interaction
+                    if (video.paused) {
+                        video.play();
+                    }
+                });
+            
+                // Attempt autoplay on load (may fail if sound is not allowed)
+                window.onload = function () {
+                    let video = document.getElementById("timelineVideo");
+                    video.play().catch(() => {
+                        console.warn("Autoplay with sound was blocked. Click anywhere to play.");
+                    });
+                };
+            </script>
+            
             
             <div class="timings">
                 <h3>01.&nbsp &nbsp Ceremony</h3>
