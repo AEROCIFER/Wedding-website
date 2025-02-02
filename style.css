@@ -211,7 +211,7 @@ a:hover{
 
 /* <===================TIMELINE===================> */
 
-.timeline{
+.timeline {
     display: block;
     background-color: var(--grey-color-light);
     float: left;
@@ -221,27 +221,41 @@ a:hover{
     backdrop-filter: blur(4px);
     padding: 8vh var(--horizontal-margin-spacing);
 }
-.timeline-container{
+
+.timeline-container {
     display: flex;
     flex-direction: row;
     margin: 8vh 0;
 }
-.timeline-img{
-    background-image: url(https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/IMG_0891.JPG);
-    height: 70vh;
+
+.timeline-video {
+    height: 100vh;
     width: 30vw;
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px; /* Added rounded border */
+    border-radius: 15px; /* Rounded border */
+    overflow: hidden; /* Ensures border-radius applies */
+    display: flex;
+    align-items: center;
+    justify-content: center center;
 }
-.timings{
+
+.timeline-video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensures video covers the container */
+    border-radius: 15px;
+}
+
+.timings {
     margin: 30px;
 }
-.timeline-container .text{
+
+.timeline-container .text {
     padding: 1rem 0 1rem 4rem;
 }
-@media (max-width:1000px){
-    .timeline{
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+    .timeline {
         background-color: var(--grey-color);
         float: none;
         position: relative;
@@ -250,14 +264,15 @@ a:hover{
         backdrop-filter: blur(0);
         height: fit-content;
     }
-    .timeline-container{
+    .timeline-container {
         flex-direction: column;
     }
-    .timeline-img{
+    .timeline-video {
         height: 50vh;
         width: 100%;
     }
 }
+
 
 /* <===================STORY===================> */
 
