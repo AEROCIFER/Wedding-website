@@ -178,7 +178,7 @@ a:hover{
     justify-content: space-between;
 }
 .home-img{
-    background-image: url(images/_DSC5275.jpg);
+    background-image: url(http://152.67.4.81/images/_DSC5275.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px; /* Added rounded border */
@@ -227,7 +227,7 @@ a:hover{
     margin: 8vh 0;
 }
 .timeline-img{
-    background-image: url(images/IMG_0891.JPG);
+    background-image: url(http://152.67.4.81/images/IMG_0891.JPG);
     height: 70vh;
     width: 30vw;
     background-position: center;
@@ -320,15 +320,15 @@ h2.reveal{
     border-radius: 15px; /* Added rounded border */
 }
 .gallery-img:nth-child(1){
-    background-image: url(images/DSC_0453.jpg);
+    background-image: url(http://152.67.4.81/images/DSC_0453.jpg);
     background-position-x: right;
 }
 .gallery-img:nth-child(2){
-    background-image: url(images/DSC_0112.jpg);
+    background-image: url(http://152.67.4.81/images/DSC_0112.jpg);
 }
 .gallery-img:nth-child(3){
     background-position-y: top;
-    background-image: url(images/IMG_20191217_163054\ Cover.jpg);
+    background-image: url(http://152.67.4.81/images/IMG_20191217_163054%20Cover.jpg);
 }
 @media (max-width:1000px){
     .gallery{
@@ -372,7 +372,7 @@ h2.reveal{
 .hands{
     height: 120vh;
     width: 100%;
-    background-image: url(images/_DSC0773.JPG);
+    background-image: url(http://152.67.4.81/images/_DSC0773.JPG);
     background-size: cover;
     background-position-y: center;
     background-attachment: fixed;
@@ -433,7 +433,7 @@ h2.reveal{
     display: block;
     height: 100vh;
     width: 40vw;
-    background-image: url(images/DSC_0053.jpg);
+    background-image: url(http://152.67.4.81/images/DSC_0053.jpg);
     background-size: cover;
     background-position-y: top;
     background-repeat: no-repeat;
