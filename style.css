@@ -178,7 +178,7 @@ a:hover{
     justify-content: space-between;
 }
 .home-img{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wedding-website-66dea.firebasestorage.app/o/_DSC5275.jpg?alt=media&token=5bf258b8-37d4-4c8f-b572-d0bf59445e4a);
+    background-image: url(https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/_DSC5275.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px; /* Added rounded border */
@@ -227,7 +227,7 @@ a:hover{
     margin: 8vh 0;
 }
 .timeline-img{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wedding-website-66dea.firebasestorage.app/o/IMG_0891.JPG?alt=media&token=9f52770b-211e-487a-b01b-9e08ce677096);
+    background-image: url(https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/IMG_0891.JPG);
     height: 70vh;
     width: 30vw;
     background-position: center;
@@ -320,15 +320,15 @@ h2.reveal{
     border-radius: 15px; /* Added rounded border */
 }
 .gallery-img:nth-child(1){
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wedding-website-66dea.firebasestorage.app/o/DSC_0453.jpg?alt=media&token=0e0cd72c-7f67-40a3-8818-ad6f440e6b24);
+    background-image: url(https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/DSC_0453.jpg);
     background-position-x: right;
 }
 .gallery-img:nth-child(2){
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wedding-website-66dea.firebasestorage.app/o/IMG_20191217_163054%20Cover.jpg?alt=media&token=aeb15ede-6665-4041-a6d9-62615c5aa9a7);
+    background-image: url(https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/IMG_20191217_163054%20Cover.jpg);
 }
 .gallery-img:nth-child(3){
     background-position-y: top;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wedding-website-66dea.firebasestorage.app/o/DSC_0112.jpg?alt=media&token=381f9126-4871-45c5-9def-ef72aad6d92a);
+    background-image: url(https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/DSC_0112.jpg);
 }
 @media (max-width:1000px){
     .gallery{
@@ -372,7 +372,7 @@ h2.reveal{
 .hands{
     height: 120vh;
     width: 100%;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wedding-website-66dea.firebasestorage.app/o/_DSC0773.JPG?alt=media&token=6f20089a-500f-40b1-a2f5-c21862b21c7d);
+    background-image: url(https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/_DSC0773.JPG);
     background-size: cover;
     background-position-y: center;
     background-attachment: fixed;
@@ -433,7 +433,8 @@ h2.reveal{
     display: block;
     height: 100vh;
     width: 40vw;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/wedding-website-66dea.firebasestorage.app/o/DSC_0053.jpg?alt=media&token=b5df48e8-91d6-4727-a656-39655e31905b);
+    /* background-image: url(https://firebasestorage.googleapis.com/v0/b/wedding-website-66dea.firebasestorage.app/o/DSC_0053.jpg?alt=media&token=b5df48e8-91d6-4727-a656-39655e31905b); */
+    background-image: url(https://objectstorage.ap-mumbai-1.oraclecloud.com/n/bmcf1rmyy7p2/b/bucket-20250202-2350/o/DSC_0053.jpg);    
     background-size: cover;
     background-position-y: top;
     background-repeat: no-repeat;
