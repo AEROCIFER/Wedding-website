@@ -220,6 +220,7 @@ a:hover{
     width: 100%;
     backdrop-filter: blur(4px);
     padding: 8vh var(--horizontal-margin-spacing);
+    text-align: center;
 }
 
 .timeline-container {
@@ -246,7 +247,8 @@ a:hover{
 }
 
 .timings {
-    margin: 30px;
+    margin-top: 20%;
+    /* margin: 30px; */
 }
 
 .timeline-container .text {
