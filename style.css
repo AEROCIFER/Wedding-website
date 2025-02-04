@@ -503,8 +503,10 @@ footer{
     width: 100%;
     background-color: var(--grey-color);
     padding: 10vh 30px;
+    text-align: center;
 }
 footer h2{
+    text-align: center;
     font-size: 2Srem;
     font-weight: normal;
 }
